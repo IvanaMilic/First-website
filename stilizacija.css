@@ -1,0 +1,415 @@
+.kontakt {
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+
+.kontakt p {
+    flex: 1;
+    margin-right: 55px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    margin-bottom: 10px;
+}
+
+
+.kontakt p:hover {
+    color: brown;
+}
+
+
+.kontakt p:last-child {
+    margin-right: 0 !important;
+}
+
+.kontakt i {
+    margin-right: 5px;
+    margin-left: 45px;
+}
+
+.meni {
+    display: flex;
+    align-items: center;
+    margin-top: 5px; 
+}
+
+ .naslovi {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+ }
+.naslovi a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 65px;
+    margin-left: 35px;
+    margin-bottom: 0 !important;
+}
+
+.naslovi a:hover {
+    color: brown;
+}
+
+.logo img {
+    margin-left: 20px;
+    margin-bottom: 0 !important;  
+}    
+
+.slika {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+}
+.slika img {
+    width: 100%;
+    height: auto;
+}
+
+.tekst {
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.tekst p {
+    margin-left: 45px;
+    margin-right: 45px
+}
+
+.tekst h2, .tekst2 h2 {
+    background-color: brown;
+}
+.tekst p, .tekst2 p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+.slika2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.slika2 img {
+    max-width: 20%;
+    height: auto;
+   /* border-radius: 50%; */
+   border-radius: 50%; /* Postavlja sliku u obliku kruga */
+    overflow: hidden; 
+    border: 3px solid black;
+    margin-bottom: 25px;
+}
+
+.tekstp p {
+    font-size: 18px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+
+
+.tekst2 h2 {
+  
+    text-align: center;
+    font-size: 35px;
+}
+
+.misijavizija {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.misija111, .vizija111 {
+    width: 50%;
+}
+
+
+.misijavizija h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.misijavizija p {
+    font-size: 18px;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: justify;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center; /* Centriranje horizontalno */
+    align-items: center; /* Centriranje vertikalno */
+    background-color: rgb(227, 241, 25);
+    border: 1px solid black;
+    height: 180px;
+    padding: 20px;
+}
+
+.imgfooter,
+.kontaktfooter {
+    margin: 55px; /* Dodajte željeni prostor između divova */
+}
+
+.kontaktfooter {
+    margin-left: 65px;
+    margin-top: 15px;
+    color: rgb(17, 16, 16);
+}
+
+.kontaktfooter h3 {
+    margin-top: 70px;
+}
+
+.imgfooter img {
+
+    margin-right: 100px;
+    margin-top: 15px;
+    max-width: 100%; /* Postavite maksimalnu širinu slike na 100% */
+    height: auto; /* Održavanje proporcija slike */
+}
+
+.kontaktfooter h3 {
+    font-size: 27px;
+}
+
+.kontaktfooter i {
+    margin-right: 8px;
+}
+
+.mapa {
+    margin-right: 10px;
+    margin-left: 35px;
+}
+
+/*O nama */
+
+.onama {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+  }
+
+  .tekstovi {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slikaonama, .dvadiva {
+    width: 50%;
+    text-align: center;
+  }
+
+
+  .slem {
+    max-width: 100%;
+    margin-top: 32px;
+ 
+  }
+
+  .tekstonama p { 
+    font-size: 16px;
+    text-align: justify;
+  }
+
+
+  .onamah1 {
+    font-size: 40px;
+    background-color: brown;
+    color: rgb(10, 10, 10);
+    width: 200%;
+    height: 55px;
+    text-align: center;
+    
+  }
+
+  .onamap {
+    font-size: 45px;
+    height: 60px;
+    background-color:  brown;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 25px;
+  }
+
+  /*ASORTIMAN*/
+
+  .asortiman {
+  /*  display: flex; */
+    width: 100%;
+    background-color: white;
+    height: 200px;
+  }
+
+  .asortimanh1 {
+    margin-top: 0 !important;
+    font-size: 40px;
+    background-color: brown; 
+    color: rgb(10, 10, 10);
+    height: 50px;
+    text-align: center;
+  }
+
+  .asortiman p  {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: bolder;
+  }
+
+  
+  .asortimanslike {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100%;
+    height: 180%;
+}
+
+
+
+.slika1, .slika22, .slika3, .slika4, .slika5, .slika6 {
+    
+    display: flex;
+    width: 380px;
+    height: 380px;
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center !important;
+    /* margin-right: 30px; */
+    margin-top: 30px;
+    margin-left: 89px;
+    margin-bottom: 30px;
+    
+   
+}
+
+.slika1 img, .slika22 img, .slika3 img, .slika4 img, .slika5 img, .slika6 img {
+    width: 80%;
+    height: 80%;
+  
+}
+
+.slika1, .slika22, .slika3, .slika4, .slika5, .slika6 p {
+    margin-top: 10px; 
+}
+
+.slika1 p, .slika22 p, .slika3 p, .slika4 p, .slika5 p, .slika6 p {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/* BRENDOVI */
+
+
+.brendovislike {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.brendovi p {
+    font-size: 40px;
+    background-color: brown;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    margin-top: 0% !important;
+}
+.brend1, .brend2, .brend3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  
+}
+
+.brend1 img, .brend2 img, .brend3 img {
+    width: 28%;
+    height: 200px;
+    max-width: 100%;
+}
+
+/* KONTAKT */
+
+.kontaktend {
+    display: flex;
+   
+}
+
+.slikakontakt {
+    width: 100%;
+    height: 450px;
+}
+
+.naslov p {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+table {
+    
+    width: 50%;
+    margin: auto; /* Ovo će postaviti tablicu na sredinu ekrana */
+}
+ td, tr {
+    
+    padding: 1px;
+    text-align: left;
+   /* width: 50%; */
+}
+
+.ime, .prezime, .email {
+    padding: 20px;
+   /* width: 250px; */
+    background-color: rgb(245, 215, 215) ;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.dugme {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(245, 215, 215) ;
+    width: 20%;
+    margin-bottom: 30px;
+    margin-left: 580px;
+    font-weight: bold;
+    color: brown; 
+    margin-top: 15px;
+
+
+}
+
+.naslov p {
+    text-align: center;
+    color: brown;
+}
+
+.area {
+    background-color: rgb(245, 215, 215) ;
+    color: rgb(8, 8, 8) ;
+    font-size: 15px;
+}
+
+.email {
+    width: 85%;
+}
